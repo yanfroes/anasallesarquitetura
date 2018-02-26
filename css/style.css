@@ -572,7 +572,8 @@ PORTFOLIO SECTION
 .video-section {
 	margin-top: 94px;
 	padding: 94px 0;
-	background-image: url('../img/portfolio/lazer.png');
+/*background-image: url('../img/portfolio/lazer.png'); */
+		background-image: url('../img/geometricoazul.jpg');
 	color: #ffffff;
 }
 
