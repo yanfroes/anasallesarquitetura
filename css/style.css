@@ -25,7 +25,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-	font-size: 110px;
+	font-size: 80px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(50, 70, 81, 0.9);
+	background: rgba(76, 37, 61, 0.9);
 }
 
 /**********************
@@ -97,24 +97,24 @@ BUTTONS
 	box-sizing: border-box;
 	transition: all 0.3s;
 	outline: none;
-	box-shadow: none;	
+	box-shadow: none;
 }
 
 .btn-default.white-yellow {
-	color: #ffe600;
+	color: #4c253d;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
 }
 
 .btn-default.white-yellow:hover,
-.btn-default.white-yellow.active.focus, 
-.btn-default.white-yellow.active:focus, 
-.btn-default.white-yellow.active:hover, 
-.btn-default.white-yellow:active.focus, 
-.btn-default.white-yellow:active:focus, 
+.btn-default.white-yellow.active.focus,
+.btn-default.white-yellow.active:focus,
+.btn-default.white-yellow.active:hover,
+.btn-default.white-yellow:active.focus,
+.btn-default.white-yellow:active:focus,
 .btn-default.white-yellow:active:hover {
 	color: #ffffff;
-	background: #ffe600;
+	background: #4c253d;
 	border: 1px solid #ffffff;
 	box-shadow: none;
 	outline: none;
@@ -122,20 +122,20 @@ BUTTONS
 
 .btn-default.yellow-white {
 	color: #ffffff;
-	background-color: #ffe600;
-	border: 1px solid #ffe600;
+	background-color: #4c253d;
+	border: 1px solid #4c253d;
 }
 
 .btn-default.yellow-white:hover,
-.btn-default.yellow-white.active.focus, 
-.btn-default.yellow-white.active:focus, 
-.btn-default.yellow-white.active:hover, 
-.btn-default.yellow-white:active.focus, 
-.btn-default.yellow-white:active:focus, 
+.btn-default.yellow-white.active.focus,
+.btn-default.yellow-white.active:focus,
+.btn-default.yellow-white.active:hover,
+.btn-default.yellow-white:active.focus,
+.btn-default.yellow-white:active:focus,
 .btn-default.yellow-white:active:hover {
-	color: #ffe600;
+	color: #4c253d;
 	background: #ffffff;
-	border: 1px solid #ffe600;
+	border: 1px solid #4c253d;
 	box-shadow: none;
 	outline: none;
 }
@@ -147,11 +147,11 @@ BUTTONS
 }
 
 .btn-default.white-blue:hover,
-.btn-default.white-blue.active.focus, 
-.btn-default.white-blue.active:focus, 
-.btn-default.white-blue.active:hover, 
-.btn-default.white-blue:active.focus, 
-.btn-default.white-blue:active:focus, 
+.btn-default.white-blue.active.focus,
+.btn-default.white-blue.active:focus,
+.btn-default.white-blue.active:hover,
+.btn-default.white-blue:active.focus,
+.btn-default.white-blue:active:focus,
 .btn-default.white-blue:active:hover {
 	color: #ffffff;
 	background: #334752;
@@ -180,8 +180,8 @@ SOCIAL ICONS
 .social-list a {
 	position: relative;
 	display: block;
-	width: 35px;
-	height: 35px;
+	width: 70px;
+	height: 70px;
 	color: #324651;
 	background: #fafafa;
 	border: 1px solid #ffffff;
@@ -194,7 +194,7 @@ SOCIAL ICONS
 
 .social-list a:hover {
 	color: #ffffff;
-	background: #ffe600;
+	background: #4c253d;
 }
 
 .si {
@@ -232,10 +232,10 @@ NAVIGATION
 }
 
 #main-navigation.navbar-default {
-	background-color: #ffffff;
+	background-color: #4c253d;
 }
 
-#main-navigation .navbar-brand, 
+#main-navigation .navbar-brand,
 #main-navigation.navbar-default .navbar-nav>li>a.navbar-brand {
 	height: 100px;
 	padding: 29px 45px 23px;
@@ -261,20 +261,20 @@ NAVIGATION
 
 .navbar-default .navbar-nav>li>a {
 	font-size: 15px;
-	color: #334752;
+	color: #ffffff;
 	padding: 40px 45px;
 }
 
-#main-navigation.navbar-default .navbar-nav>li>a:focus, 
+#main-navigation.navbar-default .navbar-nav>li>a:focus,
 #main-navigation.navbar-default .navbar-nav>li>a:hover {
-	color: #ffe600;
+	color: #a8a8a8;
 	background-color: transparent;
 }
 
-#main-navigation.navbar-default .navbar-nav>.active>a, 
-#main-navigation.navbar-default .navbar-nav>.active>a:focus, 
+#main-navigation.navbar-default .navbar-nav>.active>a,
+#main-navigation.navbar-default .navbar-nav>.active>a:focus,
 #main-navigation.navbar-default .navbar-nav>.active>a:hover {
-	color: #ffe600;
+	color: #a8a8a8;
 	background-color: transparent;
 }
 
@@ -285,13 +285,13 @@ NAVIGATION
 	border-radius: 0;
 }
 
-#main-navigation.navbar-default .navbar-toggle:focus, 
+#main-navigation.navbar-default .navbar-toggle:focus,
 #main-navigation.navbar-default .navbar-toggle:hover {
 	background-color: transparent;
 }
 
 #main-navigation.navbar-default .navbar-toggle .icon-bar {
-	background: #ffe600;
+	background: #a8a8a8;
 	width: 22px;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
@@ -341,12 +341,17 @@ NAVIGATION
 	transform: rotate(0);
 }
 
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color:#4c253d;
+}
+
 /**********************
 HOME SECTION
 ***********************/
 
 #home {
-	height: 950px;
+	height: 870px;
 }
 
 .carousel {
@@ -355,7 +360,7 @@ HOME SECTION
 }
 
 .carousel .item {
-	height: 950px;
+	height: 870px;
 	background: url("../img/slider_background.png") center center no-repeat;
 	background-size: cover;
 }
@@ -371,7 +376,7 @@ HOME SECTION
 }
 
 .carousel-caption .h1 {
-	margin-top: 27px;
+	margin-top: 15px;
 }
 
 .carousel-caption p {
@@ -387,8 +392,8 @@ HOME SECTION
 .carousel-indicators .active {
 	margin: 0 8px;
 	border-radius: 8px;
-	border-color: #ffe600;
-	background-color: #ffe600;
+	border-color: #4c253d;
+	background-color: #4c253d;
 }
 
 .carousel-control {
@@ -396,7 +401,7 @@ HOME SECTION
 }
 
 .carousel-control span {
-	color: #ffe600;
+	color: #4c253d;
 }
 
 /**********************
@@ -418,7 +423,7 @@ SERVICES SECTION
 	top: 56px;
 	width: 80%;
 	left: 10%;
-	border-top: 2px solid #ffe600;
+	border-top: 2px solid #4c253d;
 }
 
 .services-container .service {
@@ -449,7 +454,7 @@ SERVICES SECTION
 }
 
 .we-make-section h3 {
-	color: #ffe600;;
+	color: #4c253d;;
 	margin-top: 15px;
 }
 
@@ -524,15 +529,15 @@ PORTFOLIO SECTION
 
 #portfolio-navigation .navbar-nav>li>.filter:hover,
 #portfolio-navigation .navbar-nav>li>.filter:focus {
-	color: #ffe600;
+	color: #4c253d;
 }
 
-#portfolio-navigation .navbar-nav>li>.filter.mixitup-control-active, 
+#portfolio-navigation .navbar-nav>li>.filter.mixitup-control-active,
 #portfolio-navigation .navbar-nav>li>.filter.mixitup-control-active:hover,
 #portfolio-navigation .navbar-nav>li>.filter.mixitup-control-active:focus {
 	color: #ffffff;
-	background: #ffe600;
-	border: 1px solid #ffe600;
+	background: #4c253d;
+	border: 1px solid #4c253d;
 	box-shadow: none;
 }
 
@@ -567,14 +572,14 @@ PORTFOLIO SECTION
 .video-section {
 	margin-top: 94px;
 	padding: 94px 0;
-	background: #ffe500;
+	background-image: url('../img/portfolio/lazer.png');
 	color: #ffffff;
 }
 
 .video-section h4 {
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #334752;
+	color: #ffffff;
 }
 
 .video-section p {
@@ -583,7 +588,7 @@ PORTFOLIO SECTION
 
 .video-section i {
 	font-weight: 300;
-	color: #334752;
+	color: #ffffff;
 }
 
 .video-section .video-description {
@@ -600,7 +605,7 @@ PORTFOLIO SECTION
 }
 
 .business-section {
-	padding: 96px 0 0;
+	padding: 40px;
 	background: #324651;
 	color: #ffffff;
 	text-align: center;
@@ -617,7 +622,7 @@ PORTFOLIO SECTION
 
 #portfolio .business-section .btn {
 	display: inline-block;
-	margin: 36px 0 0;	
+	margin: 36px 0 0;
 }
 
 .business-section .img-container {
@@ -649,12 +654,12 @@ ABOUT US SECTION
 	max-width: 100%;
 }
 
-.about-team .team-member h4, 
+.about-team .team-member h4,
 .about-team .team-member .h4 {
 	margin-top: 64px;
 	font-size: 25px;
 	font-weight: 600;
-	color: #ffe600;
+	color: #4c253d;
 }
 
 .about-team .team-member .position {
@@ -680,7 +685,7 @@ SLIDER OPTIONS
 	opacity: 0.2;
 	transition: opacity 1s ease-out;
 }
- 
+
 .team-member.slick-slide.slick-center {
 	opacity: 1;
 	transition: opacity 1s ease-out;
@@ -697,7 +702,7 @@ SKILLS & COMPANY SUBSECTION
 }
 
 .skills-company-subsection h4 {
-	color: #ffe600;
+	color: #4c253d;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -722,7 +727,7 @@ SKILLS & COMPANY SUBSECTION
 .skills-subsection .progress-bar {
 	line-height: 15px;
 	border-radius: 10px;
-	background-color: #ffe600;
+	background-color: #4c253d;
 }
 
 .company-subsection .description {
@@ -766,7 +771,7 @@ BLOG SECTION
 
 .blog-entry a {
 	text-decoration: none;
-	color: #ffe600;
+	color: #4c253d;
 }
 
 .blog-entry a:hover,
@@ -799,7 +804,7 @@ BLOG SECTION
 #blog .newsletter {
 	margin-top: 95px;
 	padding: 53px 0;
-	background: #ffe600;
+	background: #4c253d;
 	color: #ffffff;
 }
 
@@ -871,7 +876,7 @@ CONTACT US SECTION
 	margin-top: 92px;
 }
 
-#contact .contact-form input, 
+#contact .contact-form input,
 #contact .contact-form textarea {
 	display: block;
 	width: 100%;
@@ -958,8 +963,36 @@ HELPER CLASSES
 ***********************/
 
 .text-yellow {
-	color: #ffe600;
+	color: #4c253d;
 }
+
+
+.logo-size {
+  max-width: 60%;
+  max-height: 60%;
+
+}
+
+.social-size {
+	padding: 40px;
+  max-width: 50%;
+  max-height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.footer-social-size {
+	padding: 40px;
+  max-width: 40%;
+  max-height: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 
 .img-container {
 	text-align: center;
@@ -976,7 +1009,7 @@ HELPER CLASSES
     cursor: -webkit-grab;
 }
 
-.grabbing { 
+.grabbing {
     cursor: grabbing;
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
@@ -999,7 +1032,7 @@ RESPONSIVE
 }
 
 @media only screen and (max-width: 1199px) {
-	
+
 	/**********************
 	NAVIGATION
 	***********************/
@@ -1074,7 +1107,7 @@ RESPONSIVE
 		margin-bottom: 45px;
 	}
 
-	.about-team .team-member h4, 
+	.about-team .team-member h4,
 	.about-team .team-member .h4 {
 		margin-top: 35px;
 	}
@@ -1093,7 +1126,7 @@ RESPONSIVE
 	.company-subsection .description {
 		margin-top: 30px;
 	}
-	
+
 	/**********************
 	CONTACT US SECTION
 	***********************/
@@ -1135,7 +1168,7 @@ RESPONSIVE
 	h2.section-title {
 		font-size: 50px;
 	}
-	
+
 	/**********************
 	NAVIGATION
 	***********************/
@@ -1164,7 +1197,7 @@ RESPONSIVE
 	HOME SECTION
 	***********************/
 	.carousel-caption .h1 {
-		font-size: 55px;
+		font-size: 45px;
 	}
 
 	/**********************
@@ -1187,7 +1220,7 @@ RESPONSIVE
 	.team-member.slick-slide {
 		opacity: 1;
 	}
-	
+
 	/**********************
 	BLOG SECTION
 	***********************/
