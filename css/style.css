@@ -3,6 +3,7 @@ DEFAULT
 ***********************/
 .row {
 	margin-right: 0px;
+	margin-left: 0px;
 }
 body {
 	padding-top: 100px;
@@ -1228,6 +1229,10 @@ RESPONSIVE
 		margin-left: auto;
 		margin-right: auto;
 
+	}
+
+	.mail {
+		font-size: 10px
 	}
 	/**********************
 	PORTFOLIO SECTION
