@@ -1140,6 +1140,9 @@ RESPONSIVE
 	#contact .contact-form .row div:not(:first-of-type) {
 		margin-top: 30px;
 	}
+	.mail {
+		font-size: 10px
+	}
 
 	/**********************
 	HELPER CLASSES
