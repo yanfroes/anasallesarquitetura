@@ -1,7 +1,9 @@
 /**********************
 DEFAULT
 ***********************/
-
+.row {
+	margin-right: 0px;
+}
 body {
 	padding-top: 100px;
 	font-family: 'Open Sans', sans-serif;
@@ -825,7 +827,7 @@ BLOG SECTION
 
 #blog .newsletter-form #Email {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	padding: 9px 22px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
@@ -1170,7 +1172,7 @@ RESPONSIVE
 	***********************/
 
 	h2.section-title {
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	/**********************
@@ -1178,7 +1180,7 @@ RESPONSIVE
 	***********************/
 
 	#main-navigation.navbar .navbar-nav {
-	    display: block;
+	  display: block;
 	}
 
 	#brand-mobile {
@@ -1203,7 +1205,30 @@ RESPONSIVE
 	.carousel-caption .h1 {
 		font-size: 45px;
 	}
+	.logo-size {
+	  max-width: 25%;
+	  max-height: 25%;
 
+	}
+
+	.social-size {
+		padding: 40px;
+	  max-width: 25%;
+	  max-height: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.footer-social-size {
+		padding: 40px;
+	  max-width: 25%;
+	  max-height: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
 	/**********************
 	PORTFOLIO SECTION
 	***********************/
