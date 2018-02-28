@@ -413,13 +413,13 @@ SERVICES SECTION
 ***********************/
 
 #services {
-	padding: 91px 0 0;
+	padding: 50px 0 0;
 }
 
 .services-container {
 	position: relative;
-	margin-top: 89px;
-	padding: 0 0 56px;
+	margin-top: 20px;
+	padding: 0 0 20px;
 }
 
 .services-container .line {
@@ -501,11 +501,11 @@ PORTFOLIO SECTION
 ***********************/
 
 #portfolio {
-	padding: 92px 0 0;
+	padding: 50px 0 0;
 }
 
 #portfolio-navigation {
-	margin-top: 91px;
+	margin-top: 20px;
 	text-align: center;
 	margin-bottom: 0;
 }
@@ -546,7 +546,7 @@ PORTFOLIO SECTION
 }
 
 .portfolio-grid {
-	margin-top: 25px;
+	margin-top: 0px;
 	font-size: 0.1px;
 	text-align: justify;
 }
@@ -574,8 +574,8 @@ PORTFOLIO SECTION
 }
 
 .video-section {
-	margin-top: 94px;
-	padding: 94px 0;
+
+	padding: 50px 0;
 /*background-image: url('../img/portfolio/lazer.png'); */
 		background-image: url('../img/geometricoazul.jpg');
 	color: #ffffff;
@@ -640,11 +640,11 @@ ABOUT US SECTION
 ***********************/
 
 #about {
-	padding: 86px 0 0;
+	padding: 50px 0 0;
 }
 
 .about-team {
-	margin-top: 55px;
+	margin-top: 10px;
 }
 
 .about-team .team-member:focus {
@@ -748,12 +748,12 @@ BLOG SECTION
 ***********************/
 
 #blog {
-	padding: 93px 0 0;
+	padding: 50px 0 0;
 	background: #fafafa;
 }
 
 .first-row-entry {
-	margin-top: 93px;
+	margin-top: 40px;
 }
 
 .second-row-entry {
@@ -871,7 +871,7 @@ CONTACT US SECTION
 ***********************/
 
 #contact {
-	padding: 89px 0 93px;
+	padding: 50px 0 50px;
 	background: #324651;
 	color: #ffffff;
 }
@@ -941,7 +941,7 @@ FOOTER SECTION
 ***********************/
 
 #footer {
-	padding: 83px 0 90px;
+	padding: 50px 0 30px;
 	background-image: url('../img/geometricoazul.jpg');
 	color: #ffffff;
 	font-size: 20px;
