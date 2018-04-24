@@ -1,6 +1,11 @@
 /**********************
 DEFAULT
 ***********************/
+.carousel-inner > .item > img {
+    position-relative;
+    min-width: 100%;
+    min-height: 100%; /* Altura da imagem dentro do Carousel */
+}
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -56,6 +61,10 @@ h2.section-title:after,
 }
 
 .title-content p {
+	margin-top: 34px;
+}
+
+.portfolio-content p {
 	margin-top: 34px;
 }
 
