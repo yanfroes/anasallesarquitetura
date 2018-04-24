@@ -382,23 +382,23 @@ HOME SECTION
 
 }
 
-.carousel1 .item {
+#carousel-hero.carousel.item {
 	height: 700px;
 	background: url("../img/slider_background.png") center center no-repeat;
 	background-size: cover;
 }
 
-.carousel-caption {
+#carousel-hero.carousel-caption {
 	padding: 0;
 	bottom: 50%;
 	transform: translateY(50%);
 }
 
-.carousel-caption .btn-default {
+#carousel-hero.carousel-caption.btn-default {
 	margin-top: 31px;
 }
 
-.carousel-caption .h1 {
+#carousel-hero.carousel-caption .h1 {
 	margin-top: 15px;
 }
 
@@ -412,7 +412,7 @@ HOME SECTION
 	background-color: #ffffff;
 }
 
-.carousel-indicators .active {
+#carousel-hero.carousel-indicators.active {
 	margin: 0 8px;
 	border-radius: 8px;
 	border-color: #4c253d;
@@ -423,7 +423,7 @@ HOME SECTION
 	opacity: 0;
 }
 
-.carousel-control span {
+#carousel-hero.carousel-control span {
 	color: #4c253d;
 }
 
