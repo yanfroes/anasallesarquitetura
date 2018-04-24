@@ -371,25 +371,20 @@ HOME SECTION
 	max-height: 100%;
 }
 
-.carousel {
+#carousel-hero.carousel {
 	max-width: 100%;
 	max-height: 100%;
 
 }
 
-#carousel-hero.carousel.item {
-	height: 700px;
+#carousel-hero.carousel .item {
+	height: 580px;
 	background: url("../img/slider_background.png") center center no-repeat;
 	background-size: cover;
 }
 
-#carousel-hero.carousel-caption {
-	padding: 0;
-	bottom: 50%;
-	transform: translateY(50%);
-}
 
-#carousel-hero.carousel-caption.btn-default {
+#carousel-hero.carousel-caption .btn-default {
 	margin-top: 31px;
 }
 
